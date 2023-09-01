@@ -13,3 +13,16 @@ function openModal(imageSrc) {
     modal.style.display = "block";
     modalImage.src = imageSrc;
 }
+
+var closeButton = document.querySelector(".close");
+
+// Add a click event listener to the close button to hide the modal
+closeButton.addEventListener("click", function() {
+  closeModal();
+});
+
+// Function to close the modal
+function closeModal() {
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+}
