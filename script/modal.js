@@ -1,5 +1,5 @@
 root.addEventListener("click", function(event) {
-    const clickedImage = event.target.closest(".product-image");
+    const clickedImage = event.target.closest(".container-card");
     if (clickedImage) {
       openModal(clickedImage.src);
     }
