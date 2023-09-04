@@ -66,6 +66,7 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
   /*const picture = document.createElement('div');
   picture.setAttribute('class', 'product__picture');*/
   const img = document.createElement('img');
+  img.setAttribute('class', 'product-image') 
   if(product.image.includes("http")){
     img.setAttribute('src', product.image);
   }else{
