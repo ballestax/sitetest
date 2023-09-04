@@ -182,17 +182,14 @@ li.item-menu:hover{
 	height: 100%; /* Full height */
 	overflow: auto; /* Enable scrolling if needed */
 	background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
-	display: flex;
-	justify-content: center; /* Center horizontally */
-	align-items: center; /* Center vertically */
   }
   
   /* Modal Content (the image) */
   .modal-content {
+	margin: auto;
+	display: block;
 	max-width: 100%;
 	max-height: 100%;
-	width: auto; /* Allow the image to shrink to its original size */
-	height: auto; /* Allow the image to shrink to its original size */
   }
   
   /* Close button */
