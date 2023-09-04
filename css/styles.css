@@ -471,13 +471,19 @@ span.nav-item:hover {
 
 /*footer */
 .footer {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-	align-items: flex-start;
-	justify-content: center;
-	margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 10px;
+    background: #2f3640;
+    color: #616161;
+    font-size: 1rem; /* Adjust the font size as needed */
+    padding: 20px 0 30px; /* Top padding: 20px, Bottom padding: 30px */
+    text-align: center;
 }
+
 
 .footer-container {
 	display: grid;
@@ -510,16 +516,6 @@ span.nav-item:hover {
 .link-delivery:hover{
 	font-weight: 600;
 
-}
-
-.footer {
-	background: #2f3640;
-	color: #616161;
-	font-size: 12px;
-	padding: 20px 0;
-	text-align: center;
-	font-size: 1rem;
-	padding-bottom: 30px;
 }
 
 h5.copyright{
@@ -564,6 +560,11 @@ h5.copyright{
 	.carta__product__tiny {
 		height: 7rem;
 	}
+
+	.footer {
+        display: block; /* Change to a block layout for smaller screens */
+        text-align: center; /* Center-align the content */
+    }
 
 }
 
