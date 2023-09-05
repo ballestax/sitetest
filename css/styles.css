@@ -370,7 +370,7 @@ span.nav-item:hover {
 	display: none;
 }
   
-  .container-card {
+.container-card {
 	position: relative;
 	border: 2px solid transparent;
 	background: linear-gradient(71deg, #080509, #1a171c, #080509);
@@ -456,7 +456,7 @@ span.nav-item:hover {
 	right: 0;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	row-gap: 0.7em;
+	row-gap: 0.6em;
 }
 
 .value{
@@ -468,8 +468,8 @@ span.nav-item:hover {
 }
 .press{
 	color: #e8ff17;
-	font-size: 0.8rem;
-	margin-right: 10px;
+	font-size: 0.7rem;
+	margin-right: 8px;
 }
 
 
