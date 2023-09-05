@@ -182,6 +182,9 @@ li.item-menu:hover{
 	height: 100%; /* Full height */
 	overflow: auto; /* Enable scrolling if needed */
 	background-color: rgba(0, 0, 0, 0.9); /* Black background with opacity */
+	display: flex;
+	align-items: center; /* Centra verticalmente */
+	justify-content: center; /* Centra horizontalmente */
   }
   
   /* Modal Content (the image) */
@@ -194,6 +197,7 @@ li.item-menu:hover{
 	max-height: 100%;
 	width: auto;
 	height: auto;
+	object-fit: contain; /* Ajusta la imagen dentro del contenedor */
 }
   
   /* Close button */
