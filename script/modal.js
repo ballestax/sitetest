@@ -12,6 +12,7 @@ function openModal(imageSrc) {
   
     modal.style.display = "block";
     modalImage.src = imageSrc;
+    document.body.classList.add('modal-open');
 }
 
 var closeButton = document.querySelector(".close");
@@ -25,4 +26,5 @@ closeButton.addEventListener("click", function() {
 function closeModal() {
   var modal = document.getElementById("myModal");
   modal.style.display = "none";
+  document.body.classList.remove('modal-open');
 }
