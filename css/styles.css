@@ -202,14 +202,14 @@ li.item-menu:hover{
   
   /* Close button */
   .close {
-	position: absolute;
-	top: 15px;
-	right: 35px;
-	font-size: 40px;
-	font-weight: bold;
-	color: #f1f1f1;
-	cursor: pointer;
-  }
+    display: block;
+    margin: 10px auto; /* Espaciado del botón debajo de la imagen */
+    font-size: 18px; /* Tamaño del texto del botón */
+    background-color: #fff; /* Color de fondo del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: 1px solid #000; /* Borde del botón */
+    cursor: pointer;
+}
   .close:hover,
   .close:focus {
 	color: #bbb;
