@@ -31,6 +31,7 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
   
     // Crear la imagen
     const image = document.createElement('img');
+    console.log(producto.image);
     image.src = producto.image;
     image.alt = '';
   
