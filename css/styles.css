@@ -217,6 +217,10 @@ li.item-menu:hover{
 	cursor: pointer;
   }
 
+  .modal-open {
+    overflow: hidden;
+}
+
 
 
 /*CATEGORIES*/
