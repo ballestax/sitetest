@@ -17,7 +17,7 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
   let columnaActual = null;
   
   // Iterar a través de los productos
-  productos.forEach(producto => {
+   data.forEach(producto => {
     // Crear una nueva columna si es el primer producto de la columna
     if (productosPorColumna === 0) {
       columnaActual = document.createElement('div');
