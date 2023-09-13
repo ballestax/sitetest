@@ -6,6 +6,8 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
 
     const data = response.data;
 
+    let enableds = data.filter(product => product.image.includes("http"));
+
   // Crear un div para contenedor de todas las columnas
   const columnContainer = document.createElement('div');
   columnContainer.classList.add('columns-container');
@@ -17,7 +19,7 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
   let columnaActual = null;
   
   // Iterar a través de los productos
-   data.forEach(producto => {
+   enableds.forEach(producto => {
     // Crear una nueva columna si es el primer producto de la columna
     if (productosPorColumna === 0) {
       columnaActual = document.createElement('div');
