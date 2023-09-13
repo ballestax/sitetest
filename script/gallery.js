@@ -6,7 +6,7 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
 
     const data = response.data;
 
-    let enableds = data.filter(product => product.image.includes("http"));
+    let enableds = data.filter(product => isValidURL(product.image));
 
   // Crear un div para contenedor de todas las columnas
   const columnContainer = document.createElement('div');
@@ -69,3 +69,9 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
 },(error) => {
   console.log(error);
 });
+
+function isValidURL(str) {
+    // Expresión regular para validar URLs
+    const urlPattern = /^(https?|ftp):\/\/[^\s/$.?#].[^\s]*$/i;
+    return urlPattern.test(str);
+}
