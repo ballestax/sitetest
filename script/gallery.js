@@ -12,7 +12,7 @@ axios.get('https://api.miamibeachcocktails.com/products?location=1')
     const gridContainer = document.getElementById("grid-container");
 
     // Recorrer los datos de la API y crear elementos para cada producto
-    apiData.forEach(product => {
+    enableds.forEach(product => {
       // Crear un elemento <article>
       const article = document.createElement("article");
 
