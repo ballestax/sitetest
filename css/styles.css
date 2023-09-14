@@ -289,7 +289,7 @@ span.nav-item:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-content: center;	
+	align-content: center;
 }
 
 .title-head h2 {
@@ -457,35 +457,22 @@ span.nav-item:hover {
 
 /*Gallery */
 
-.heading-text {
-	margin-bottom: 2rem;
-	font-size: 2rem;
+img {
+	vertical-align: middle;
 }
 
-.heading-text span {
-	font-weight: 100;
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
 
-/* Responsive image gallery rules begin*/
-
-.image-gallery {
-	/* Mobile first */
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.image-gallery .column {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
-}
-
-.image-item img {
-	width: 100%;
-	border-radius: 5px;
-	height: 100%;
-	object-fit: cover;
+.grid article {
+	background-color: #FFFFFF;
+	display: block;
+	float: left;
+	margin: 1%;
+	width: 23%;
 }
 
 /* overlay styles */
@@ -591,13 +578,6 @@ h5.copyright {
 	padding: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-	.image-gallery {
-		flex-direction: row;
-	}
-}
-
-
 @media (min-width: 600px) {
 
 	.carta {
@@ -647,5 +627,24 @@ h5.copyright {
 		width: 100%;
 		object-fit: cover;
 		object-position: center center;
+	}
+}
+
+@media (max-width: 1024px) {
+	.grid article {
+		width: 31.3%;
+	}
+}
+
+@media (max-width: 767px) {
+	.grid article {
+		width: 48%;
+	}
+}
+
+@media (max-width: 479px) {
+	.grid article {
+		margin: 2% 0;
+		width: 100%;
 	}
 }
