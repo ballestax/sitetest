@@ -18,7 +18,7 @@ var arr = { "cocteles": "blue",
 "adicionales": "white" }; 
 
 
-axios.get('https://api.miamibeachcocktails.com/products?location=1')
+axios.get('https://api2.miamibeachcocktails.com/products?location=1')
 .then((response) => {
 
   const data = response.data;
