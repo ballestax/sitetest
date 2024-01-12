@@ -445,13 +445,12 @@ span.nav-item:hover {
 	display: flex;
 	flex-direction: column;
 	min-width: 3em;
-	margin-right: 1em;
+	margin-right: 0.6em;
 }
 
 .press {
 	color: #e8ff17;
-	font-size: 0.7rem;
-	margin-right: 8px;
+	font-size: 0.65rem;
 }
 
 
