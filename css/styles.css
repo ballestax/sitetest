@@ -542,11 +542,11 @@ img {
 	align-items: center;
 }
 
-.footer-aliado {
+.footer-partnership {
 	display: flex;
 	align-items: center;
 }
-.footer-aliado img{
+.footer-partnership img{
 	width: 30px;
 	height: 30px;
 }
