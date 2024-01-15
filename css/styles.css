@@ -520,7 +520,7 @@ img {
 
 .footer-container {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
 	grid-gap: 10px;
 	align-items: flex-start;
 	justify-content: center;
@@ -544,6 +544,7 @@ img {
 
 .footer-partnership {
 	display: flex;
+	justify-content: space-around;
 	align-items: center;
 }
 .footer-partnership img{
