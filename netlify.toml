@@ -1,0 +1,5 @@
+[[redirects]]
+    from = "/*"
+    to = "https://www.miamibeachcocktails.com"
+    status = 301
+    force = true
