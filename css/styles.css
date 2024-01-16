@@ -536,19 +536,14 @@ img {
 	flex-direction: column;
 }
 
-.footer-social {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
+.footer-social,
 .footer-partnership {
 	display: flex;
       	flex-direction: column;
       	align-items: center;
       	padding: 20px;
 }
-
+.social-row,
 .partners-row {
 	display: flex;
       	justify-content: center;
