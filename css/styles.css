@@ -547,7 +547,7 @@ img {
 .partners-row {
 	display: flex;
       	justify-content: center;
-	padding-botton: 10px;
+	padding: 10px 5px;
 }
 
 .footer-partnership img{
