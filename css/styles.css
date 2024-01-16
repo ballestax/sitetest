@@ -610,7 +610,7 @@ img {
 		height: 7rem;
 	}
 
-	.footer {
+	.footer-container {
 		grid-template-columns: repeat(3, 1fr);
 		/* Display elements horizontally */
 		margin-bottom: 10px;
@@ -645,6 +645,14 @@ img {
 		object-fit: cover;
 		object-position: center center;
 	}
+
+	.footer-container {
+		grid-template-columns: repeat(3, 1fr);
+		/* Display elements horizontally */
+		margin-bottom: 10px;
+		/* Add bottom margin on larger screens */
+	}
+	
 }
 
 @media (max-width: 1024px) {
