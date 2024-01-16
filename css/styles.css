@@ -547,9 +547,16 @@ img {
 	justify-content: space-around;
 	align-items: center;
 }
+
+.partners-row {
+	display: flex;
+      	justify-content: center;
+}
+
 .footer-partnership img{
 	width: 30px;
 	height: 30px;
+	margin: 0 10 px;
 }
 
 .icon-social {
