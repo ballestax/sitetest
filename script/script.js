@@ -52,7 +52,7 @@ axios.get('https://api2.miamibeachcocktails.com/products?location=1')
 
   container.setAttribute('class', type_cat+hidden);
 
-  const title = document.createElement('p');
+  const title = document.createElement('h3');
   title.setAttribute('class', 'card-title');
   title.textContent = product.name
 
